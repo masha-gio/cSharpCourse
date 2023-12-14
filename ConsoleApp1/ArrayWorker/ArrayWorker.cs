@@ -4,12 +4,12 @@ namespace ArrayWorkerLibrary
 {
     public class ArrayWorker
     {
-        public int[] MyArray { get; set; }
+        //public int[] MyArray { get; set; }
 
-        public ArrayWorker(int[] myArray) { 
+        //public ArrayWorker(int[] myArray) { 
         
-            this.MyArray = myArray;
-        }
+        //    this.MyArray = myArray;
+        //}
 
         public int[] InvertArray(int[] myArray) {
         int length = myArray.Length;
