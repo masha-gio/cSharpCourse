@@ -7,7 +7,7 @@ internal class Program
         int[] currentArray = new[] { 1, 2, 3, 4 };
         Console.WriteLine("Original array:");
         PrintArray(currentArray);
-        ArrayWorker array = new ArrayWorker(currentArray);
+        ArrayWorker array = new ArrayWorker();
         int[] invertedArray = array.InvertArray(currentArray);
         Console.WriteLine("Inverted array:");
         PrintArray(invertedArray);
