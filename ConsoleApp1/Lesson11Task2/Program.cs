@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            static void Main()
+            {
+                Water water = new Water(200, 90); 
+                GroundCoffee groundCoffee = new GroundCoffee(20, CoffeeStrength.Strong); 
+
+                Coffee coffee = water + groundCoffee;
+
+                Console.WriteLine(coffee);
+            }
         }
     }
 }

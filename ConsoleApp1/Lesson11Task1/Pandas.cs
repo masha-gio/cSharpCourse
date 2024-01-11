@@ -70,7 +70,7 @@ namespace Lesson11Task1
 
         public override string ToString()
         {
-            return $"{Name}: Gender: {Gender}, Color: {Colour}, HP: {HP}, Attack: {Attack}, Defence: {Defence}";
+            return $"{Name}: Gender: {Gender}, Colour: {Colour}, HP: {HP}, Attack: {Attack}, Defence: {Defence}";
         }
 
     }
